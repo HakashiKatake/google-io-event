@@ -1,4 +1,4 @@
-// Header scroll effect
+
 document.addEventListener('DOMContentLoaded', function() {
     const header = document.querySelector('.header');
     const modal = document.getElementById('rsvpModal');
@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const closeModal = document.querySelector('.close-modal');
     const rsvpForm = document.getElementById('rsvpForm');
     
-    // Header scroll effect
+    
     window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
             header.classList.add('scrolled');
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // RSVP Modal functionality
+  
     function openModal() {
         modal.style.display = 'block';
         document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
