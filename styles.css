@@ -284,6 +284,44 @@ img {
   align-items: center;
 }
 
+/* Hero Illustration */
+.hero-illustration {
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    z-index: 4;
+    width: 40%;
+    max-width: 500px;
+    display: none; /* Hidden on mobile by default */
+    transform: perspective(800px) rotateX(10deg) rotateY(-10deg);
+    transition: transform 0.3s ease;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+}
+
+.hero-illustration:hover {
+    transform: perspective(800px) rotateX(5deg) rotateY(-5deg) translateY(-10px);
+}
+
+/* Show the illustration on tablets and desktops */
+@media (min-width: 768px) {
+    .hero-illustration {
+        display: block;
+    }
+    
+    /* Keep hero content centered instead of left-aligned */
+    .hero-content {
+        max-width: 800px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
 /* About Section */
 .about-section {
   padding: 80px 0;
