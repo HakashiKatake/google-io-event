@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google I/O 2025 - IT Skills University</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="App">
+        <!-- Header -->
+        <header class="header">
+            <div class="container-custom header-container">
+                <div class="logo">
+                    <div class="gradient-text">Google I/O</div>
+                    <div class="year">2025</div>
+                </div>
+                <nav class="desktop-nav">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#agenda" class="nav-link">Agenda</a>
+                    <a href="#partners" class="nav-link">Partners</a>
+                    <button id="registerBtn" class="btn-primary">Register</button>
+                </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-bg">
+                    <div class="hero-bg-image"></div>
+                    <div class="hero-overlay"></div>
+                    <div class="blur-circle blur-circle-1"></div>
+                    <div class="blur-circle blur-circle-2"></div>
+                </div>
+                
+                <!-- 3D Elements -->
+                <div class="floating-element float-delay-1 top-right">
+                    <img src="images/cloud_icon_3d.jpeg" alt="Cloud Icon" class="icon-3d">
+                </div>
+                <div class="floating-element float-delay-2 bottom-left">
+                    <img src="images/star_icon_3d.jpeg" alt="Star Icon" class="icon-3d">
+                </div>
+                <div class="arrow-element">
+                    <img src="images/arrow_yellow.jpeg" alt="Arrow" class="arrow-img">
+                </div>
+                
+                <div class="container-custom hero-content">
+                    <h1 class="hero-title">Build With AI</h1>
+                    <h2 class="hero-subtitle">Extended'25 / Gemini Edition</h2>
+                    <p class="hero-date">May 20<sup>th</sup> | ITM Skills University</p>
+                    <p class="hero-collab">In collaboration with Google for Developers</p>
+                    <div class="hero-buttons">
+                        <button id="heroRegisterBtn" class="btn-primary btn-white btn-shimmer">Register Now</button>
+                        <button class="btn-primary btn-outline">Learn More</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about-section">
+                <div class="container-custom">
+                    <h2 class="section-title">What are you building for?</h2>
+                    <div class="card-grid">
+                        <div class="card card-3d" data-aos="fade-up" data-aos-delay="0">
+                            <div class="card-img android-gradient">
+                                <div class="icon-3d-placeholder"></div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Android</h3>
+                                <p class="card-text">Explore the latest tools and technologies for building innovative solutions.</p>
+                            </div>
+                        </div>
+                        <div class="card card-3d" data-aos="fade-up" data-aos-delay="100">
+                            <div class="card-img ai-gradient">
+                                <div class="icon-3d-placeholder"></div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">AI</h3>
+                                <p class="card-text">Explore the latest tools and technologies for building innovative solutions.</p>
+                            </div>
+                        </div>
+                        <div class="card card-3d" data-aos="fade-up" data-aos-delay="200">
+                            <div class="card-img web-gradient">
+                                <div class="icon-3d-placeholder"></div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Web</h3>
+                                <p class="card-text">Explore the latest tools and technologies for building innovative solutions.</p>
+                            </div>
+                        </div>
+                        <div class="card card-3d" data-aos="fade-up" data-aos-delay="300">
+                            <div class="card-img cloud-gradient">
+                                <div class="icon-3d-placeholder"></div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Cloud</h3>
+                                <p class="card-text">Explore the latest tools and technologies for building innovative solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Agenda Section -->
+            <section id="agenda" class="agenda-section">
+                <div class="floating-logo">
+                    <img src="images/io_logo_3d.jpeg" alt="IO Logo" class="float">
+                </div>
+                
+                <div class="container-custom">
+                    <h2 class="section-title">Event Agenda</h2>
+                    
+                    <div class="agenda-container">
+                        <div class="mobile-agenda">
+                            <img src="images/agenda_timeline.jpeg" alt="Agenda Timeline" class="agenda-img">
+                        </div>
+                        
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-card">
+                                    <div class="timeline-time">6:30 to 7:00</div>
+                                    <h3 class="timeline-title">Registrations & Checkin</h3>
+                                    <p class="timeline-desc">Get your badge and welcome kit</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-card">
+                                    <div class="timeline-time">7:00 to 7:30</div>
+                                    <h3 class="timeline-title">Claim your $5 Google Cloud Credits</h3>
+                                    <p class="timeline-desc">Special offer for all attendees</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-card">
+                                    <div class="timeline-time">7:30 to 8:40</div>
+                                    <h3 class="timeline-title">Hands-on Workshop</h3>
+                                    <p class="timeline-desc">Practical session with Google technologies</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-card">
+                                    <div class="timeline-time">8:40 to 10:00</div>
+                                    <h3 class="timeline-title">Dinner & Networking</h3>
+                                    <p class="timeline-desc">Connect with fellow developers</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-card">
+                                    <div class="timeline-time">10:30 to 12:15</div>
+                                    <h3 class="timeline-title">Google IO Watch Party</h3>
+                                    <p class="timeline-desc">Live streaming of keynotes</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-card">
+                                    <div class="timeline-time">12:15 to 12:30</div>
+                                    <h3 class="timeline-title">Photos & Wrap up</h3>
+                                    <p class="timeline-desc">Closing remarks and group photos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Partners Section -->
+            <section id="partners" class="partners-section">
+                <div class="container-custom">
+                    <h2 class="section-title">Partners</h2>
+                    <div class="partners-grid">
+                        <div class="partner-item">
+                            <div class="partner-logo">
+                                <div class="partner-name">ITM Skills University</div>
+                            </div>
+                        </div>
+                        <div class="partner-item">
+                            <div class="partner-logo">
+                                <div class="partner-name">School of Future Tech</div>
+                            </div>
+                        </div>
+                        <div class="partner-item">
+                            <div class="partner-logo">
+                                <div class="partner-name">ML Mumbai</div>
+                            </div>
+                        </div>
+                        <div class="partner-item">
+                            <div class="partner-logo">
+                                <div class="partner-name">Lets Upgrade</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container-custom">
+                <div class="footer-content">
+                    <div class="footer-info">
+                        <div class="footer-logo">
+                            <div class="footer-logo-text">Google I/O</div>
+                            <div class="footer-logo-year">2025</div>
+                        </div>
+                        <p class="footer-collab">In collaboration with Google for Developers</p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z" />
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-copyright">
+                    <p>© 2025 Google I/O Extended | ITM Skills University. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- RSVP Modal -->
+        <div id="rsvpModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2 class="modal-title">Register for Google I/O 2025</h2>
+                <p class="modal-subtitle">Join us on May 20th at ITM Skills University</p>
+                
+                <form id="rsvpForm" class="rsvp-form">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="organization">Organization / Company</label>
+                        <input type="text" id="organization" name="organization" placeholder="Enter your organization name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="role">Your Role</label>
+                        <select id="role" name="role">
+                            <option value="">Select your role</option>
+                            <option value="student">Student</option>
+                            <option value="developer">Developer</option>
+                            <option value="designer">Designer</option>
+                            <option value="manager">Manager</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="interests">Areas of Interest</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interests" value="android"> Android
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interests" value="ai"> AI
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interests" value="web"> Web
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interests" value="cloud"> Cloud
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="dietary">Dietary Restrictions</label>
+                        <textarea id="dietary" name="dietary" placeholder="Please mention any dietary restrictions"></textarea>
+                    </div>
+                    
+                    <div class="form-group form-checkbox">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the terms and conditions</label>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary btn-submit">Submit Registration</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
